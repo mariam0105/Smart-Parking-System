@@ -1,0 +1,10 @@
+# Libraries
+asio/
+
+# Executables
+*.exe
+parking_web
+
+# Build files
+*.o
+*.obj
