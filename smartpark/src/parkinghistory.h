@@ -11,7 +11,9 @@ class ParkingHistory {
 private:
     HistoryNode* head;
 public:
-    ParkingHistory() { head = nullptr; }
+    ParkingHistory() {
+         head = nullptr;
+         }
     void addEntry(ParkingRequest req);
     void printLogs();
     double getTotalRevenue();

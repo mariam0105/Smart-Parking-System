@@ -5,7 +5,6 @@
 struct ParkingSlot {
     std::string slotID;
     bool isOccupied;
-
     ParkingSlot(); 
     ParkingSlot(std::string id);
     void occupySlot(); 

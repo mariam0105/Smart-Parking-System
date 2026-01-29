@@ -10,6 +10,6 @@ public:
     int preferredZoneID;
 
     Vehicle(std::string id, std::string name, std::string userCnic, int zoneID);
-    Vehicle(); 
+    Vehicle();
 };
 #endif

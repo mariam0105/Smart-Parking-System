@@ -2,11 +2,10 @@
 #define PARKINGAREA_H
 #include "parkingslot.h"
 
-#define MAX_SLOTS 10  // This fixes the 'MAX_SLOTS' error
-
+#define MAX_SLOTS 10  
 struct ParkingArea {
     std::string areaID;
-    std::string areaName; // This fixes the 'areaName' error
+    std::string areaName; 
     int count;
     ParkingSlot slots[MAX_SLOTS];
 
